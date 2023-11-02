@@ -1,0 +1,14 @@
+{
+    "projects": {
+      "default": "etos-cloud"
+    },
+    "targets": {
+      "etos-cloud": {
+        "hosting": {
+          "sales": [
+            "etosindonusa-sales"
+          ]
+        }
+      }
+    }
+  }

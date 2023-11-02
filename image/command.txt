@@ -1,0 +1,45 @@
+
+
+gcloud auth login
+gcloud auth activate-service-account  repository-container@etos-cloud.iam.gserviceaccount.com --key-file=etos-cloud.json
+gcloud auth configure-docker
+
+
+
+
+#update
+docker build -t etos8.1 8.1/.
+
+docker tag etos8.1 asia.gcr.io/etos-cloud/etos-erp
+docker push asia.gcr.io/etos-cloud/etos-erp
+
+
+docker tag etos8.1 asia.gcr.io/etos-cloud/etos-erp-approval
+docker push asia.gcr.io/etos-cloud/etos-erp-approval
+
+
+docker tag etos8.1 asia.gcr.io/etos-cloud/etos-erp-asset
+docker push asia.gcr.io/etos-cloud/etos-erp-asset
+
+
+docker tag etos8.1 asia.gcr.io/etos-cloud/etos-erp-document
+docker push asia.gcr.io/etos-cloud/etos-erp-document
+
+docker tag etos8.1 asia.gcr.io/etos-cloud/etos-erp-helpdesk
+docker push asia.gcr.io/etos-cloud/etos-erp-helpdesk
+
+docker tag etos8.1 asia.gcr.io/etos-cloud/etos-erp-hr
+docker push asia.gcr.io/etos-cloud/etos-erp-hr
+
+docker tag etos8.1 asia.gcr.io/etos-cloud/etos-erp-shared
+docker push asia.gcr.io/etos-cloud/etos-erp-shared
+
+docker tag etos8.1 asia.gcr.io/etos-cloud/etos-erp-user
+docker push asia.gcr.io/etos-cloud/etos-erp-user
+
+
+docker build -t etos8.2 8.2/.
+
+
+docker tag etos8.2 asia.gcr.io/etos-cloud/etos
+docker push asia.gcr.io/etos-cloud/etos

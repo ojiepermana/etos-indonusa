@@ -1,0 +1,104 @@
+version: '3.4'
+
+networks:
+  network:
+
+services:
+  nginx:
+    image: nginx:latest
+    container_name: server-etos-indonusa
+    restart: unless-stopped
+    ports:
+  # frontend port 
+  
+  # host port
+      - "8100:8100" # host app port
+
+  # services port
+
+  # fullstack port
+
+    volumes:
+      - ./code/services:/home/www-data/services
+      - ./code/fullstacks:/home/www-data/fullstacks
+      - ./code/old:/home/www-data/old
+      - ./nginx:/etc/nginx/conf.d
+    depends_on:
+      # - proxy
+      - php
+      - redis
+      - mysql
+      - mongodb
+    networks:
+      - network
+
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: php-etos-indonusa
+    restart: unless-stopped
+    volumes:
+      - ./code/services:/home/www-data/services
+      - ./code/fullstacks:/home/www-data/fullstacks
+      - ./code/old:/home/www-data/old
+    # ports:
+    #   - "9000:9000"
+    networks:
+      - network
+  redis:
+    image: redis:latest
+    container_name: etos-redis
+    restart: unless-stopped
+    command: redis-server --appendonly yes --requirepass etos
+    volumes:
+      - ./database/redis:/data
+    ports:
+      - "8379:6379"
+    networks:
+      - network
+  
+  mysql:
+    image: mysql:latest
+    command: --default-authentication-plugin=mysql_native_password --sql_mode=""
+    restart: unless-stopped
+    container_name: mysql-etos-indonusa
+    ports:
+      - "8306:3306"
+    volumes:
+      - ./database/mysql:/var/lib/mysql
+    networks:
+      - network
+    environment:
+      MYSQL_DATABASE: etos
+      MYSQL_USER: etos
+      MYSQL_PASSWORD: etos
+      MYSQL_ROOT_PASSWORD: etos
+      SERVICE_TAGS: dev
+      SERVICE_NAME: database
+
+  mongodb:
+    image: mongo:latest
+    restart: unless-stopped
+    container_name: mongodb-etos-indonusa
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: etos
+      MONGO_INITDB_ROOT_PASSWORD: etos
+    ports:
+      - 28017:27017
+    volumes:
+      - ./database/mongodb:/data/db
+
+  # proxy:
+  #     image: 'jc21/nginx-proxy-manager:latest'
+  #     container_name: proxy
+  #     restart: unless-stopped
+  #     ports:
+  #       - '80:80'
+  #       - '81:81'
+  #       - '443:443'
+  #     volumes:
+  #       - ./proxy/data:/data
+  #       - ./proxy/letsencrypt:/etc/letsencrypt
+  #     networks:
+  #     - network
