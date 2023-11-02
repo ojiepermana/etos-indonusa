@@ -42,8 +42,8 @@ services:
       - ./code/services:/home/www-data/services
       - ./code/fullstacks:/home/www-data/fullstacks
       - ./code/old:/home/www-data/old
-    # ports:
-    #   - "9000:9000"
+    ports:
+      - "8199:9000"
     networks:
       - network
   redis:
