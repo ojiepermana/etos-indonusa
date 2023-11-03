@@ -1,7 +1,7 @@
 
 
 gcloud auth login
-gcloud auth activate-service-account  repository-container@etos-cloud.iam.gserviceaccount.com --key-file=etos-cloud.json
+gcloud auth activate-service-account  repository-container@etos-cloud.iam.gserviceaccount.com --key-file=etos-cloud-key.json
 gcloud auth configure-docker
 
 
