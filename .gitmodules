@@ -1,0 +1,4 @@
+[submodule "code/clients/anggular/full/website"]
+	path = code/clients/anggular/full/website
+	url = https://github.com/etos-systems/website.git
+	branch = main
