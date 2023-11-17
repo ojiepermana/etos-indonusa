@@ -6,3 +6,7 @@
 	path = code/clients/anggular/ssr/website
 	url = https://github.com/etos-systems/website.git
 	branch = main
+[submodule "code/clients/anggular/app/sales"]
+	path = code/clients/anggular/app/sales
+	url = https://github.com/etos-systems/sales-angular-web.git
+	branch = main
