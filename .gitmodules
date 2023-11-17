@@ -2,3 +2,7 @@
 	path = code/clients/anggular/full/website
 	url = https://github.com/etos-systems/website.git
 	branch = main
+[submodule "code/clients/anggular/host"]
+	path = code/clients/anggular/host
+	url = https://github.com/etos-systems/host-angular-web.git
+	branch = main
