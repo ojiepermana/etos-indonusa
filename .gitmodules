@@ -1,8 +1,12 @@
-[submodule "code/clients/anggular/full/website"]
-	path = code/clients/anggular/full/website
-	url = https://github.com/etos-systems/website.git
-	branch = main
 [submodule "code/clients/anggular/host"]
 	path = code/clients/anggular/host
 	url = https://github.com/etos-systems/host-angular-web.git
+	branch = main
+[submodule "code/clients/anggular/ssr/website"]
+	path = code/clients/anggular/ssr/website
+	url = https://github.com/etos-systems/website.git
+	branch = main
+[submodule "code/clients/anggular/site/sales"]
+	path = code/clients/anggular/site/sales
+	url = https://github.com/etos-systems/sales-angular-web.git
 	branch = main
