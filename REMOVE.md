@@ -25,3 +25,12 @@ git commit -m "Remove submodule"
 git add .gitmodules
 git commit -m "Remove submodule configuration"
 rm -rf .git/modules/code/clients/anggular/host
+
+
+git submodule deinit code/clients/anggular/site/sales
+git rm code/clients/anggular/site/sales
+git rm --cached code/clients/anggular/site/sales
+git commit -m "Remove submodule"
+git add .gitmodules
+git commit -m "Remove submodule configuration"
+rm -rf .git/modules/code/clients/anggular/site/sales
