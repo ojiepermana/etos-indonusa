@@ -10,3 +10,7 @@
 	path = code/clients/anggular/app/sales
 	url = https://github.com/etos-systems/sales-angular-web.git
 	branch = main
+[submodule "code/services/laravel/indonusa/auth"]
+	path = code/services/laravel/indonusa/auth
+	url = https://github.com/etos-systems/auth-laravel-services.git
+	branch = main
