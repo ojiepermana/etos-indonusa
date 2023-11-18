@@ -1,0 +1,16 @@
+[submodule "code/indonusa/angular/site/website"]
+	path = code/indonusa/angular/site/website
+	url = https://github.com/etos-systems/website.git
+	branch = main
+[submodule "code/indonusa/angular/host"]
+	path = code/indonusa/angular/host
+	url = https://github.com/etos-systems/host-angular-web.git
+	branch = main
+[submodule "code/indonusa/angular/app/sales"]
+	path = code/indonusa/angular/app/sales
+	url = https://github.com/etos-systems/sales-angular-web.git
+	branch = main
+[submodule "code/indonusa/laravel/services/auth"]
+	path = code/indonusa/laravel/services/auth
+	url = https://github.com/etos-systems/auth-laravel-services.git
+	branch = main
