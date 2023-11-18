@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "etos-cloud",
+    "private_key_id": "f5ef2129c9e3aaa06031ca8363de9ca879aa188a",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCtUDDC+KTjh9Gk\nb8wCDYMsPpLV2cTX3TyFZ2ZcBD4krwM9eteJWBNcKvHSVasqRB7TurUcy1Bu0j4O\n78JXlMYJpg3XuWlXShXJC7U+o9CLGchHACXYYbh906vLYSEYU6ncDqMLH7XEszc5\nNhLaZvHeH4THRw0nok45ByLRM0QKclr8HACCTSLkfUHfIeAW2Mleac1EfFfRuKOU\ni9LZ4nPHDrWsKh3zOZX6hsLkylCU7kIdYUqMK+1otJhd4MWYIubWkKGtwDGKbday\nzqyK3o4OjpiVaOH4w/djNptfAfaY6kaNCLX/DJu7SUqyiE6xq5/2Msj2r3Hg4vSW\nheTL31hnAgMBAAECggEAAKyxLirGLql5fK3LgllmhblXijQ23KR6mDJVU/tZCTDm\nSJNyMq3j+I+YpnLia5iCgPkDXWEBdOSsQNF+h5YfJmtNu9KtcgQTYpH0oH6BZwv3\nm0ZAdABqaEgbM7FBEMjUKSQGVTPJ06CqTnwO+e/uK8pLkQvjgSUmCbu5gC2eog4K\no+8ooym4j9Lkkuq6NhRSTtWJvvAshlPBQW1NKfDQPvKsCogk07fLW7zdRnyeiJiZ\ntSRblVdFgiW4CdumGFpDgmotMiimn2EBGp/+D0uTu92T23p9bGJIWjADerqK5CbJ\ny0MhwNvlKFgYUkAYkwdU59duIU+82CdKXH/PHGHU4QKBgQDnp+3KK0KNW+B0tFS8\nnhLBNvyi6qKWSKK6Rn4eMuST3req1Gzz6epBvjO1wfiFdBtRb4f0NTc8vRthfj/r\nKQkdhvZdp3g+/2dNzix8PEgtyy9IrRW2i657v3KrjWg9aGvFeCEFYhm/53y6OlUX\nA2LwO8K4GHPcNvsxJBHCJIHLWQKBgQC/hrW6sCldPqv2yjeTT5/z/PWwoCHb6y5E\ncsNq7MUEGj39EjtXklaGfOAShScAy7UMXmnq/6p9VwHyCeTyEo9Og+feyOG9VfMx\nUlkxsOGwlrQ2lpl7TnQrzFWav4nsdMMTNPuJBjG7shSZtnMKUfl1AyBzvQ+3eTOe\nPZnR+iaJvwKBgQClvJd8FQdAa4Ni+8HEULPKWLTXOleofb8u1lBU+sRepvFw3xo0\nSB65eoM0ftp3YGJLGSiDp68lXYbBcbn5XRqQbYbF6pM1PzWBjQh2ugpJ+RyTOoJW\nYAktsAMyibESfirc1N2LJGyXx96Mvj8yf9HBXoAphhUecJe2yL+LzuKtwQKBgQCI\nUCQ/fumxx800lLABVIaPbNagoxf2IeiIJvYWv/Vo+hRsbfF2Xlze0znXdJVR56ov\n53KTIuwA0VA9J/WepL8CLrd0xJyF2QqBbA63YyD+QgR5Za5PKINeOMwkm3ZaqK++\nl9L+rz3uTMyEqmouSjG1qkgKl+D7wHOQiF9WJygOmQKBgAKUBg7jZIVGtChUUFio\nGIG4jVMj2i3o7pE7L850JRDMHHZ52fXOVl8S5UWiAccIiToozu6/iA4+9t0JzH1D\n0DwEaP+T6GtjSaBa6KRbTKQmNLoCJo98bBPjv987HRjUtYBxx+vYhiLCi8larjmH\nvn2OYiQJzNSCMYyk3zhmZksE\n-----END PRIVATE KEY-----\n",
+    "client_email": "repository-container@etos-cloud.iam.gserviceaccount.com",
+    "client_id": "107881748487335645877",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/repository-container%40etos-cloud.iam.gserviceaccount.com"
+  }

@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "etos-cloud"
+  },
+  "targets": {
+    "etos-cloud": {
+      "hosting": {
+        "host": [
+          "etosindonusa-sales"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
