@@ -1,0 +1,4 @@
+[submodule "code/clients/anggular/host"]
+	path = code/clients/anggular/host
+	url = https://github.com/etos-systems/sales-angular-web.git
+	branch = main
