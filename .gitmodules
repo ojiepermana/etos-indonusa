@@ -22,3 +22,11 @@
 	path = code/indonusa/angular/mfe/host
 	url = https://github.com/etos-systems/host-angular-web.git
 	branch = main
+[submodule "code/indonusa/angular/app/host"]
+	path = code/indonusa/angular/app/host
+	url = https://github.com/etos-systems/host-angular-web.git
+	branch = main
+[submodule "code/indonusa/angular/app/management"]
+	path = code/indonusa/angular/app/management
+	url = https://github.com/etos-systems/management-angular-web.git
+	branch = main
