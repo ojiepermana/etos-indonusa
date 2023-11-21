@@ -18,3 +18,7 @@
 	path = code/indonusa/angular/app/accounting
 	url = https://github.com/etos-systems/accounting-angular-web.git
 	branch = main
+[submodule "code/indonusa/angular/mfe/host"]
+	path = code/indonusa/angular/mfe/host
+	url = https://github.com/etos-systems/host-angular-web.git
+	branch = main
