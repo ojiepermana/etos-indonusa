@@ -38,3 +38,7 @@
 	path = code/indonusa/angular/app/payroll
 	url = https://github.com/etos-systems/payroll-angular-web.git
 	branch = main
+[submodule "code/indonusa/angular/app/spv"]
+	path = code/indonusa/angular/app/spv
+	url = https://github.com/etos-systems/spv-angular-web.git
+	branch = main
