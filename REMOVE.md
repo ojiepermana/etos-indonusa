@@ -30,12 +30,12 @@ rm -rf .git/modules/code/services/laravel/indonusa/auth
 
 
 
-git submodule deinit code/indonusa/angular/mfe/host
-git rm  code/indonusa/angular/mfe/host
-git rm --cached  code/indonusa/angular/mfe/host
+git submodule deinit code/indonusa/angular/app/spv
+git rm  code/indonusa/angular/app/spv
+git rm --cached  code/indonusa/angular/app/spv
 git commit -m "Remove submodule"
 git add .gitmodules
 git commit -m "Remove submodule configuration"
-rm -rf .git/modules/code/indonusa/angular/mfe/host
+rm -rf .git/modules/code/indonusa/angular/app/spv
 
 

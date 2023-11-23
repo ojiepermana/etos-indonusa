@@ -11,6 +11,7 @@ git submodule add --branch main  https://github.com/etos-systems/host-angular-we
 git submodule add --branch main  https://github.com/etos-systems/sales-angular-web.git code/indonusa/angular/app/sales <br />
 git submodule add --branch main  https://github.com/etos-systems/accounting-angular-web.git code/indonusa/angular/app/accounting <br />
 git submodule add --branch main  https://github.com/etos-systems/payroll-angular-web.git code/indonusa/angular/app/payroll <br />
+git submodule add --branch main  https://github.com/etos-systems/spv-angular-web.git code/indonusa/angular/app/spv <br />
 
 
 

@@ -1,1 +1,0 @@
-cp -rf dist/ /root/demo/etos/app/spv
