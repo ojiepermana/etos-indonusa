@@ -16,6 +16,7 @@ services:
       # - "8102:8102" # spv
       # - "8103:8103" # accounting
       # - "8104:8104" # payroll
+      # - "8105:8105" # management
 
    # mfe port
       # - "8200:8200" # auth 

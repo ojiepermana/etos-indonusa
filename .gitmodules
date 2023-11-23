@@ -30,3 +30,11 @@
 	path = code/indonusa/angular/app/management
 	url = https://github.com/etos-systems/management-angular-web.git
 	branch = main
+[submodule "code/indonusa/angular/app/master"]
+	path = code/indonusa/angular/app/master
+	url = https://github.com/etos-systems/master_angular_web.git
+	branch = main
+[submodule "code/indonusa/angular/app/payroll"]
+	path = code/indonusa/angular/app/payroll
+	url = https://github.com/etos-systems/payroll-angular-web.git
+	branch = main

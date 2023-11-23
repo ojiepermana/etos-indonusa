@@ -2,16 +2,18 @@
 
 
 ## Indonusa Frontend Web
+git submodule add --branch main  https://github.com/etos-systems/master_angular_web.git code/indonusa/angular/app/master <br />
+
+
 git submodule add --branch main  https://github.com/etos-systems/website.git code/indonusa/angular/site/website <br />
-
 git submodule add --branch main  https://github.com/etos-systems/management-angular-web.git code/indonusa/angular/app/management <br />
-
-
 git submodule add --branch main  https://github.com/etos-systems/host-angular-web.git code/indonusa/angular/app/host <br />
-
 git submodule add --branch main  https://github.com/etos-systems/sales-angular-web.git code/indonusa/angular/app/sales <br />
-
 git submodule add --branch main  https://github.com/etos-systems/accounting-angular-web.git code/indonusa/angular/app/accounting <br />
+git submodule add --branch main  https://github.com/etos-systems/payroll-angular-web.git code/indonusa/angular/app/payroll <br />
+
+
+
 
 
 ## Indonusa Frontend Web

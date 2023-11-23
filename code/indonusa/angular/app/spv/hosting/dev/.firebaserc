@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "permana"
+  },
+  "targets": {
+    "permana": {
+      "hosting": {
+        "accounting": [
+          "etos-dev-accounting-erp"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
