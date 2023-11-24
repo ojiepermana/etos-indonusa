@@ -16,11 +16,8 @@ git submodule add --branch main  https://github.com/etos-systems/spv-angular-web
 
 
 
-
-## Indonusa Frontend Web
-
-git submodule add --branch main  https://github.com/etos-systems/auth-angular-web.git code/indonusa/angular/mfe/auth <br />
-
 ## Indonusa Laravel Services
 git submodule add --branch main  https://github.com/etos-systems/auth-laravel-services.git code/indonusa/laravel/services/auth <br />
+
+git submodule add --branch main  https://github.com/etos-systems/contract-laravel-services.git code/indonusa/laravel/services/contract <br />
 

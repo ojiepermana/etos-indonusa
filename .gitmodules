@@ -42,3 +42,7 @@
 	path = code/indonusa/angular/app/spv
 	url = https://github.com/etos-systems/spv-angular-web.git
 	branch = main
+[submodule "code/indonusa/laravel/services/contract"]
+	path = code/indonusa/laravel/services/contract
+	url = https://github.com/etos-systems/contract-laravel-services.git
+	branch = main

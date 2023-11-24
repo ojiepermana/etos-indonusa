@@ -3,5 +3,8 @@
       {
         "path": "./../../../code/indonusa/angular/app/host/"
       }
-    ]
+    ],
+    "settings": {
+      "angular.enable-strict-mode-prompt": false
+    }
   }
