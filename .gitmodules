@@ -18,10 +18,6 @@
 	path = code/indonusa/angular/app/accounting
 	url = https://github.com/etos-systems/accounting-angular-web.git
 	branch = main
-[submodule "code/indonusa/angular/mfe/host"]
-	path = code/indonusa/angular/mfe/host
-	url = https://github.com/etos-systems/host-angular-web.git
-	branch = main
 [submodule "code/indonusa/angular/app/host"]
 	path = code/indonusa/angular/app/host
 	url = https://github.com/etos-systems/host-angular-web.git
@@ -45,4 +41,8 @@
 [submodule "code/indonusa/laravel/services/contract"]
 	path = code/indonusa/laravel/services/contract
 	url = https://github.com/etos-systems/contract-laravel-services.git
+	branch = main
+[submodule "code/indonusa/angular/mfe/contract"]
+	path = code/indonusa/angular/mfe/contract
+	url = https://github.com/etos-systems/contract-angular-web.git
 	branch = main
