@@ -23,6 +23,7 @@ services:
 
   # services port
       - "8900:8900" # auth
+      - "8901:8901" # contract
 
   # fullstack port
 
