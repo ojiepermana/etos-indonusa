@@ -20,6 +20,8 @@ services:
 
    # mfe port
       # - "8200:8200" # auth 
+      # - "8201:8201" # contract
+      # - "8300:8300" # master 
 
   # services port
       - "8900:8900" # auth
