@@ -25,4 +25,5 @@ git submodule add --branch main  https://github.com/etos-systems/contract-angula
 ## Indonusa Laravel Services
 git submodule add --branch main  https://github.com/etos-systems/auth-laravel-services.git code/indonusa/laravel/services/auth <br />
 git submodule add --branch main  https://github.com/etos-systems/contract-laravel-services.git code/indonusa/laravel/services/contract <br />
+git submodule add --branch main  https://github.com/etos-systems/master_laravel_services.git code/indonusa/laravel/services/master <br />
 
