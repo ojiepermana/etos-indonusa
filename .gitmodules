@@ -46,3 +46,7 @@
 	path = code/indonusa/angular/mfe/contract
 	url = https://github.com/etos-systems/contract-angular-web.git
 	branch = main
+[submodule "code/indonusa/laravel/services/master"]
+	path = code/indonusa/laravel/services/master
+	url = https://github.com/etos-systems/master_laravel_services.git
+	branch = main
