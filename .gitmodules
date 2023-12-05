@@ -50,3 +50,7 @@
 	path = code/indonusa/laravel/services/master
 	url = https://github.com/etos-systems/master_laravel_services.git
 	branch = main
+[submodule "code/indonusa/angular/mfe/budget"]
+	path = code/indonusa/angular/mfe/budget
+	url = https://github.com/etos-systems/budget-angular-web.git
+	branch = main
