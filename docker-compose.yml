@@ -22,11 +22,12 @@ services:
       # - "8200:8200" # auth 
       # - "8201:8201" # contract
       # - "8300:8300" # master 
+      # - "8202:8202" # budget 
 
   # services port
       - "8900:8900" # auth
       - "8901:8901" # contract
-      - "8902:8902" # master
+      - "8902:8902" # budget
 
   # fullstack port
 
