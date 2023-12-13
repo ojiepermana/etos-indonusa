@@ -14,7 +14,8 @@ RUN apt-get update && \
     libc-ares-dev \
     wget \
     nano \
-    curl
+    curl \
+    supervisor
 
 RUN pecl channel-update pecl.php.net
 RUN pecl install swoole && docker-php-ext-enable swoole
@@ -58,3 +59,4 @@ WORKDIR /home/www-data
 RUN chown -R www-data:www-data /home/www-data/
 RUN chmod -R 777 /home/www-data/
 
+# CMD ["/usr/bin/supervisord", "-n"]

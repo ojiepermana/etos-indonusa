@@ -53,10 +53,12 @@ services:
     restart: unless-stopped
     volumes:
       - ./code/indonusa/laravel:/home/www-data/indonusa
+      - ./supervisord:/etc/supervisor/conf.d
     ports:
       - "8199:9000"
     networks:
       - network
+    # command: ["/usr/bin/supervisord"]
   redis:
     image: redis:latest
     container_name: etos-redis
