@@ -1,7 +1,10 @@
 {
     "folders": [
       {
-        "path": "./../../code/clients/anggular/host/"
+        "path": "./../../../code/indonusa/angular/app/host/"
       }
-    ]
+    ],
+    "settings": {
+      "angular.enable-strict-mode-prompt": false
+    }
   }

@@ -1,16 +1,68 @@
-[submodule "code/clients/anggular/host"]
-	path = code/clients/anggular/host
-	url = https://github.com/etos-systems/host-angular-web.git
-	branch = main
-[submodule "code/clients/anggular/ssr/website"]
-	path = code/clients/anggular/ssr/website
+[submodule "code/indonusa/angular/site/website"]
+	path = code/indonusa/angular/site/website
 	url = https://github.com/etos-systems/website.git
 	branch = main
-[submodule "code/clients/anggular/app/sales"]
-	path = code/clients/anggular/app/sales
+[submodule "code/indonusa/angular/app/sales"]
+	path = code/indonusa/angular/app/sales
 	url = https://github.com/etos-systems/sales-angular-web.git
 	branch = main
-[submodule "code/services/laravel/indonusa/auth"]
-	path = code/services/laravel/indonusa/auth
+[submodule "code/indonusa/laravel/services/auth"]
+	path = code/indonusa/laravel/services/auth
 	url = https://github.com/etos-systems/auth-laravel-services.git
+	branch = main
+[submodule "code/indonusa/angular/mfe/auth"]
+	path = code/indonusa/angular/mfe/auth
+	url = https://github.com/etos-systems/auth-angular-web.git
+	branch = main
+[submodule "code/indonusa/angular/app/accounting"]
+	path = code/indonusa/angular/app/accounting
+	url = https://github.com/etos-systems/accounting-angular-web.git
+	branch = main
+[submodule "code/indonusa/angular/app/host"]
+	path = code/indonusa/angular/app/host
+	url = https://github.com/etos-systems/host-angular-web.git
+	branch = main
+[submodule "code/indonusa/angular/app/management"]
+	path = code/indonusa/angular/app/management
+	url = https://github.com/etos-systems/management-angular-web.git
+	branch = main
+[submodule "code/indonusa/angular/app/payroll"]
+	path = code/indonusa/angular/app/payroll
+	url = https://github.com/etos-systems/payroll-angular-web.git
+	branch = main
+[submodule "code/indonusa/angular/app/spv"]
+	path = code/indonusa/angular/app/spv
+	url = https://github.com/etos-systems/spv-angular-web.git
+	branch = main
+[submodule "code/indonusa/laravel/services/contract"]
+	path = code/indonusa/laravel/services/contract
+	url = https://github.com/etos-systems/contract-laravel-services.git
+	branch = main
+[submodule "code/indonusa/angular/mfe/contract"]
+	path = code/indonusa/angular/mfe/contract
+	url = https://github.com/etos-systems/contract-angular-web.git
+	branch = main
+[submodule "code/indonusa/laravel/services/master"]
+	path = code/indonusa/laravel/services/master
+	url = https://github.com/etos-systems/master_laravel_services.git
+	branch = main
+[submodule "code/indonusa/angular/mfe/budget"]
+	path = code/indonusa/angular/mfe/budget
+	url = https://github.com/etos-systems/budget-angular-web.git
+	branch = main
+[submodule "code/indonusa/laravel/services/budget"]
+	path = code/indonusa/laravel/services/budget
+	url = https://github.com/etos-systems/budget-laravel-services.git
+	branch = main
+[submodule "code/indonusa/angular/app/report"]
+	path = code/indonusa/angular/app/report
+	url = https://github.com/etos-systems/report-angular-web.git
+	branch = main
+[submodule "code/indonusa/laravel/services/invoice"]
+	path = code/indonusa/laravel/services/invoice
+	url = https://github.com/etos-systems/invoice-laravel-services.git
+	branch = main
+[submodule "code/indonusa/angular/mfe/invoice"]
+	path = code/indonusa/angular/mfe/invoice
+	url = https://github.com/etos-systems/invoice-angular-web.git
 	branch = main

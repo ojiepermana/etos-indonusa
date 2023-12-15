@@ -6,11 +6,16 @@ RUN apt-get update && \
     libssl-dev \
     libcurl4-openssl-dev \
     libzip-dev \
-    zip \
     libmagickwand-dev \
     imagemagick \
     libtidy-dev \
-    libc-ares-dev
+    libc-ares-dev \
+    libpng-dev \
+    libonig-dev \
+    libxml2-dev \
+    zip \
+    unzip \
+    supervisor
 
 RUN pecl channel-update pecl.php.net
 RUN pecl install swoole && docker-php-ext-enable swoole
