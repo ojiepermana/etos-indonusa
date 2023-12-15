@@ -58,3 +58,11 @@
 	path = code/indonusa/angular/app/report
 	url = https://github.com/etos-systems/report-angular-web.git
 	branch = main
+[submodule "code/indonusa/laravel/services/invoice"]
+	path = code/indonusa/laravel/services/invoice
+	url = https://github.com/etos-systems/invoice-laravel-services.git
+	branch = main
+[submodule "code/indonusa/angular/mfe/invoice"]
+	path = code/indonusa/angular/mfe/invoice
+	url = https://github.com/etos-systems/invoice-angular-web.git
+	branch = main
