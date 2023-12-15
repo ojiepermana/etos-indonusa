@@ -1,0 +1,10 @@
+{
+    "folders": [
+		{
+			"path": "./../../../code/indonusa/angular/mfe/invoice/"
+		}
+	],
+	"settings": {
+		"angular.enable-strict-mode-prompt": false
+	}
+  }
