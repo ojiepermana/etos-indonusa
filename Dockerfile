@@ -1,4 +1,4 @@
-FROM php:8.2-fpm
+FROM php:8.3-fpm
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
@@ -58,5 +58,68 @@ RUN docker-php-source delete && \
 WORKDIR /home/www-data
 RUN chown -R www-data:www-data /home/www-data/
 RUN chmod -R 777 /home/www-data/
+
+ENV DB_CONNECTION=mysql
+ENV DB_HOST=34.101.55.205
+ENV DB_PORT=3306
+ENV DB_DATABASE=erp_user
+ENV DB_USERNAME=app
+ENV DB_PASSWORD='Pantek123!@#'
+
+
+ENV PULSE_DB_CONNECTION=pulse
+ENV PULSE_DB_HOST=mysql
+ENV PULSE_DB_PORT=3306
+ENV PULSE_DB_DATABASE=etos
+ENV PULSE_DB_USERNAME=etos
+ENV PULSE_DB_PASSWORD=etos
+
+
+ENV URL_AUTH=https://indonusa.auth.etos.ojie.dev
+ENV URL_USER=https://user-services.etos.ojie.dev
+ENV URL_EMPLOYEE=https://employee-services.etos.ojie.dev
+ENV URL_MASTER=https://master-services.etos.ojie.dev
+ENV URL_CONTRACT=https://contract-services.etos.ojie.dev
+ENV URL_BUDGET=https://budget-services.etos.ojie.dev
+ENV URL_TARGET_SALES=https://target-sales-services.etos.ojie.dev
+ENV URL_OPERATOR=https://operator-services.etos.ojie.dev
+ENV URL_TAGIHAN=https://tagihan-services.etos.ojie.dev
+ENV URL_FAKTUR=https://faktur-services.etos.ojie.dev
+ENV URL_LOKASI=https://lokasi-services.etos.ojie.dev
+ENV URL_EQS=https://eqs-services.etos.ojie.dev
+
+ENV CLIENT_ID_AUTH=96ec14eb-ced9-4606-84f8-b5e4b0d210a2
+ENV CLIENT_SECRET_AUTH=uP7aG4mmmfMmRzsawJlRmjvB4ZvBXS3qwbReIXX6
+
+
+ENV CLIENT_ID_SALES=96ec14eb-ced9-4606-84f8-b5e4b0d210a2
+ENV CLIENT_SECRET_SALES=uP7aG4mmmfMmRzsawJlRmjvB4ZvBXS3qwbReIXX6
+
+
+ENV CLIENT_ID_HOST=96ec14eb-ced9-4606-84f8-b5e4b0d210a2
+ENV CLIENT_SECRET_HOST=uP7aG4mmmfMmRzsawJlRmjvB4ZvBXS3qwbReIXX6
+
+
+ENV CLIENT_ID_REPORT=96ec14eb-ced9-4606-84f8-b5e4b0d210a2
+ENV CLIENT_SECRET_REPORT=uP7aG4mmmfMmRzsawJlRmjvB4ZvBXS3qwbReIXX6
+
+
+ENV CLIENT_ID_ACCOUNTING=96ec14eb-ced9-4606-84f8-b5e4b0d210a2
+ENV CLIENT_SECRET_ACCOUNTING=uP7aG4mmmfMmRzsawJlRmjvB4ZvBXS3qwbReIXX6
+
+ENV CLIENT_ID_PAYROLL=96ec14eb-ced9-4606-84f8-b5e4b0d210a2
+ENV CLIENT_SECRET_PAYROLL=uP7aG4mmmfMmRzsawJlRmjvB4ZvBXS3qwbReIXX6
+
+ENV CLIENT_ID_SPV=96ec14eb-ced9-4606-84f8-b5e4b0d210a2
+ENV CLIENT_SECRET_SPV=uP7aG4mmmfMmRzsawJlRmjvB4ZvBXS3qwbReIXX6
+
+ENV CLIENT_ID_CONTRACT=96ec14eb-ced9-4606-84f8-b5e4b0d210a2
+ENV CLIENT_SECRET_CONTRACT=uP7aG4mmmfMmRzsawJlRmjvB4ZvBXS3qwbReIXX6
+
+
+ENV CLIENT_ID_BUDGET=96ec14eb-ced9-4606-84f8-b5e4b0d210a2
+ENV CLIENT_SECRET_BUDGET=uP7aG4mmmfMmRzsawJlRmjvB4ZvBXS3qwbReIXX6
+
+
 
 # CMD ["/usr/bin/supervisord", "-n"]

@@ -15,7 +15,8 @@ RUN apt-get update && \
     libxml2-dev \
     zip \
     unzip \
-    supervisor
+    supervisor \
+    curl
 
 RUN pecl channel-update pecl.php.net
 RUN pecl install swoole && docker-php-ext-enable swoole
@@ -52,3 +53,4 @@ RUN "date"
 
 RUN docker-php-source delete && \
     rm -r /tmp/* /var/cache/*
+RUN apt-get clean && rm -rf /var/lib/apt/lists/*
