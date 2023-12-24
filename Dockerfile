@@ -121,5 +121,9 @@ ENV CLIENT_ID_BUDGET=96ec14eb-ced9-4606-84f8-b5e4b0d210a2
 ENV CLIENT_SECRET_BUDGET=uP7aG4mmmfMmRzsawJlRmjvB4ZvBXS3qwbReIXX6
 
 
+ENV CLIENT_ID_INVOICE=96ec14eb-ced9-4606-84f8-b5e4b0d210a2
+ENV CLIENT_SECRET_INVOICE=uP7aG4mmmfMmRzsawJlRmjvB4ZvBXS3qwbReIXX6
 
-# CMD ["/usr/bin/supervisord", "-n"]
+
+
+CMD ["/usr/bin/supervisord", "-n", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
