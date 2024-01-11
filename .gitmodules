@@ -66,3 +66,7 @@
 	path = code/indonusa/angular/mfe/invoice
 	url = https://github.com/etos-systems/invoice-angular-web.git
 	branch = main
+[submodule "code/indonusa/angular/mfe/share"]
+	path = code/indonusa/angular/mfe/share
+	url = https://github.com/etos-systems/share-angular-web.git
+	branch = main

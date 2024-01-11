@@ -60,7 +60,7 @@ RUN chown -R www-data:www-data /home/www-data/
 RUN chmod -R 777 /home/www-data/
 
 ENV DB_CONNECTION=mysql
-ENV DB_HOST=34.101.55.205
+ENV DB_HOST=34.128.79.10
 ENV DB_PORT=3306
 ENV DB_DATABASE=erp_user
 ENV DB_USERNAME=app
@@ -75,10 +75,16 @@ ENV PULSE_DB_USERNAME=etos
 ENV PULSE_DB_PASSWORD=etos
 
 
+ENV REDIS_HOST=redis
+ENV REDIS_PASSWORD=etos
+ENV REDIS_PORT=6379
+ENV REDIS_CLIENT=phpredis
+
+
 ENV URL_AUTH=https://indonusa.auth.etos.ojie.dev
 ENV URL_USER=https://user-services.etos.ojie.dev
 ENV URL_EMPLOYEE=https://employee-services.etos.ojie.dev
-ENV URL_MASTER=https://master-services.etos.ojie.dev
+ENV URL_MASTER=https://indonusa.master-srv.etos.ojie.dev
 ENV URL_CONTRACT=https://contract-services.etos.ojie.dev
 ENV URL_BUDGET=https://budget-services.etos.ojie.dev
 ENV URL_TARGET_SALES=https://target-sales-services.etos.ojie.dev
@@ -126,4 +132,4 @@ ENV CLIENT_SECRET_INVOICE=uP7aG4mmmfMmRzsawJlRmjvB4ZvBXS3qwbReIXX6
 
 
 
-CMD ["/usr/bin/supervisord", "-n", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
+# CMD ["/usr/bin/supervisord", "-n", "-c", "/etc/supervisor/conf.d/supervisord.conf"]

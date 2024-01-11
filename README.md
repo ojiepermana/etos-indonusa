@@ -19,6 +19,7 @@ git submodule add --branch main  https://github.com/etos-systems/spv-angular-web
 ### mfe
 
 git submodule add --branch main  https://github.com/etos-systems/auth-angular-web.git code/indonusa/angular/mfe/auth <br />
+git submodule add --branch main  https://github.com/etos-systems/share-angular-web.git code/indonusa/angular/mfe/share <br />
 git submodule add --branch main  https://github.com/etos-systems/contract-angular-web.git code/indonusa/angular/mfe/contract <br />
 git submodule add --branch main  https://github.com/etos-systems/budget-angular-web.git code/indonusa/angular/mfe/budget <br />
 git submodule add --branch main  https://github.com/etos-systems/invoice-angular-web.git code/indonusa/angular/mfe/invoice <br />

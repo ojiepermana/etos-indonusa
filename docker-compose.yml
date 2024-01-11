@@ -24,6 +24,7 @@ services:
       # - "8202:8202" # budget 
       # - "8203:8203" # master 
       # - "8204:8204" # invoice 
+      # - "8205:8205" # shared 
 
 
   # services port
