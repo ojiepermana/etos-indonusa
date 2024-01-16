@@ -30,12 +30,12 @@ rm -rf .git/modules/code/indonusa/angular/app/master
 
 
 
-git submodule deinit code/indonusa/angular/app/managemen
-git rm  code/indonusa/angular/app/managemen
-git rm --cached  code/indonusa/angular/app/managemen
+git submodule deinit code/indonusa/angular/app/management
+git rm  code/indonusa/angular/app/management
+git rm --cached  code/indonusa/angular/app/management
 git commit -m "Remove submodule"
 git add .gitmodules
 git commit -m "Remove submodule configuration"
-rm -rf .git/modules/code/indonusa/angular/app/managemen
+rm -rf .git/modules/code/indonusa/angular/app/management
 
 
