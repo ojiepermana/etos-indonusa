@@ -70,3 +70,7 @@
 	path = code/indonusa/angular/mfe/share
 	url = https://github.com/etos-systems/share-angular-web.git
 	branch = main
+[submodule "code/indonusa/laravel/services/faktur"]
+	path = code/indonusa/laravel/services/faktur
+	url = https://github.com/etos-systems/faktur-laravel-services.git
+	branch = main
