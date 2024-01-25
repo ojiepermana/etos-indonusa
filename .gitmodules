@@ -74,3 +74,15 @@
 	path = code/indonusa/laravel/services/faktur
 	url = https://github.com/etos-systems/faktur-laravel-services.git
 	branch = main
+[submodule "code/indonusa/angular/mfe/faktur"]
+	path = code/indonusa/angular/mfe/faktur
+	url = https://github.com/etos-systems/invoice-angular-web.git
+	branch = main
+[submodule "code/indonusa/angular/app/crm"]
+	path = code/indonusa/angular/app/crm
+	url = https://github.com/etos-systems/crm-angular-web.git
+	branch = main
+[submodule "code/indonusa/angular/mfe/offer"]
+	path = code/indonusa/angular/mfe/offer
+	url = https://github.com/etos-systems/offer-angular-web.git
+	branch = main
