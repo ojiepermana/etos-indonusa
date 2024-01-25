@@ -38,6 +38,13 @@
 # cd $(pwd)
 
 
+# #crm app
+# cd code/indonusa/angular/app/crm/
+# bash update.sh
+# npm run hosting
+# cd $(pwd)
+
+
 # #auth mfe
 # cd code/indonusa/angular/mfe/auth/
 # bash update.sh
@@ -52,15 +59,22 @@
 # cd $(pwd)
 
 
-#invoice mfe
+# #invoice mfe
 # cd code/indonusa/angular/mfe/invoice/
 # bash update.sh
 # npm run hosting
 # cd $(pwd)
 
 
-#share mfe
-cd code/indonusa/angular/mfe/share/
-bash update.sh
-npm run hosting
-cd $(pwd)
+# #share mfe
+# cd code/indonusa/angular/mfe/share/
+# bash update.sh
+# npm run hosting
+# cd $(pwd)
+
+
+# #offer mfe
+# cd code/indonusa/angular/mfe/offer/
+# bash update.sh
+# npm run hosting
+# cd $(pwd)
