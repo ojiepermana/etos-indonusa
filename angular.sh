@@ -38,6 +38,12 @@ bash update.sh
 npm run hosting
 cd /root/project/etos-indonusa
 
+# management app
+cd code/indonusa/angular/app/management/
+bash update.sh
+npm run hosting
+cd /root/project/etos-indonusa
+
 #sales app
 cd code/indonusa/angular/app/sales/
 bash update.sh
@@ -66,9 +72,21 @@ bash update.sh
 npm run hosting
 cd /root/project/etos-indonusa
 
+#offer mfe
+cd code/indonusa/angular/mfe/contract/
+bash update.sh
+npm run hosting
+cd /root/project/etos-indonusa
 
 #invoice mfe
 cd code/indonusa/angular/mfe/invoice/
+bash update.sh
+npm run hosting
+cd /root/project/etos-indonusa
+
+
+#faktur mfe
+cd code/indonusa/angular/mfe/faktur/
 bash update.sh
 npm run hosting
 cd /root/project/etos-indonusa
