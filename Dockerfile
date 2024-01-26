@@ -123,6 +123,9 @@ ENV CLIENT_SECRET_SPV=uP7aG4mmmfMmRzsawJlRmjvB4ZvBXS3qwbReIXX6
 ENV CLIENT_ID_MANAGEMENT=96ec14eb-ced9-4606-84f8-b5e4b0d210a2
 ENV CLIENT_SECRET_MANAGEMENT=uP7aG4mmmfMmRzsawJlRmjvB4ZvBXS3qwbReIXX6
 
+ENV CLIENT_ID_CRM=96ec14eb-ced9-4606-84f8-b5e4b0d210a2
+ENV CLIENT_SECRET_CRM=uP7aG4mmmfMmRzsawJlRmjvB4ZvBXS3qwbReIXX6
+
 
 
 # CMD ["/usr/bin/supervisord", "-n", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
