@@ -38,6 +38,7 @@ services:
       - "8903:8903" # master
       - "8904:8904" # invoice
       - "8905:8905" # faktur
+      - "8906:8906" # offer
 
   # fullstack port
 

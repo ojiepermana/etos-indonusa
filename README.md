@@ -36,4 +36,5 @@ git submodule add --branch main  https://github.com/etos-systems/master_laravel_
 git submodule add --branch main  https://github.com/etos-systems/budget-laravel-services.git code/indonusa/laravel/services/budget <br />
 git submodule add --branch main  https://github.com/etos-systems/invoice-laravel-services.git code/indonusa/laravel/services/invoice <br />
 git submodule add --branch main  https://github.com/etos-systems/faktur-laravel-services.git code/indonusa/laravel/services/faktur <br />
+git submodule add --branch main  https://github.com/etos-systems/offer-laravel-services.git code/indonusa/laravel/services/offer <br />
 
