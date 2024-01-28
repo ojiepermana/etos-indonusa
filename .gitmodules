@@ -86,3 +86,7 @@
 	path = code/indonusa/angular/mfe/offer
 	url = https://github.com/etos-systems/offer-angular-web.git
 	branch = main
+[submodule "code/indonusa/laravel/services/offer"]
+	path = code/indonusa/laravel/services/offer
+	url = https://github.com/etos-systems/offer-laravel-services.git
+	branch = main
