@@ -90,3 +90,15 @@
 	path = code/indonusa/laravel/services/offer
 	url = https://github.com/etos-systems/offer-laravel-services.git
 	branch = main
+[submodule "code/indonusa/laravel/services/accounting"]
+	path = code/indonusa/laravel/services/accounting
+	url = https://github.com/etos-systems/accounting-laravel-services.git
+	branch = main
+[submodule "code/indonusa/laravel/services/transaction"]
+	path = code/indonusa/laravel/services/transaction
+	url = https://github.com/etos-systems/transaction-laravel-services.git
+	branch = main
+[submodule "code/indonusa/angular/mfe/transaction"]
+	path = code/indonusa/angular/mfe/transaction
+	url = https://github.com/etos-systems/transaction-angular-web.git
+	branch = main
