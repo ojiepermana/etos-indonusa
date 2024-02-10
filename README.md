@@ -27,7 +27,7 @@ git submodule add --branch main  https://github.com/etos-systems/budget-angular-
 git submodule add --branch main  https://github.com/etos-systems/invoice-angular-web.git code/indonusa/angular/mfe/invoice <br />
 git submodule add --branch main  https://github.com/etos-systems/invoice-angular-web.git code/indonusa/angular/mfe/faktur <br />
 git submodule add --branch main  https://github.com/etos-systems/offer-angular-web.git code/indonusa/angular/mfe/offer <br />
- <br />
+git submodule add --branch main  https://github.com/etos-systems/cash-angular-web.git code/indonusa/angular/mfe/cash <br />
 
 
 ## Indonusa Laravel Services
@@ -40,4 +40,5 @@ git submodule add --branch main  https://github.com/etos-systems/faktur-laravel-
 git submodule add --branch main  https://github.com/etos-systems/offer-laravel-services.git code/indonusa/laravel/services/offer <br />
 git submodule add --branch main  https://github.com/etos-systems/accounting-laravel-services.git code/indonusa/laravel/services/accounting <br />
 git submodule add --branch main  https://github.com/etos-systems/transaction-laravel-services.git code/indonusa/laravel/services/transaction <br />
+git submodule add --branch main  https://github.com/etos-systems/cash-laravel-services.git code/indonusa/laravel/services/cash <br />
 

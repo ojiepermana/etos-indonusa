@@ -29,7 +29,8 @@ services:
       # - "8205:8205" # shared 
       # - "8206:8206" # faktur 
       # - "8207:8207" # offer 
-      # - "8208:8208" # transaction 
+      # - "8208:8208" # transaction
+      # - "8209:8209" # cash management
 
 
   # services port
@@ -42,6 +43,7 @@ services:
       - "8906:8906" # offer
       - "8907:8907" # accounting
       - "8908:8908" # transaction
+      - "8909:8909" # cash management
 
   # fullstack port
 

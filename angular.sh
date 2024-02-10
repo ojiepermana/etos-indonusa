@@ -101,6 +101,6 @@ cd /root/project/etos-indonusa
 
 #transaction mfe
 cd code/indonusa/angular/mfe/transaction/
-#bash update.sh
+# bash update.sh
 npm run hosting
 cd /root/project/etos-indonusa

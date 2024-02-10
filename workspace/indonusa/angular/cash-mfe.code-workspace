@@ -1,0 +1,10 @@
+{
+    "folders": [
+		{
+			"path": "./../../../code/indonusa/angular/mfe/cash/"
+		}
+	],
+	"settings": {
+		"angular.enable-strict-mode-prompt": false
+	}
+  }
