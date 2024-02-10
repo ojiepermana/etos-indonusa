@@ -102,3 +102,11 @@
 	path = code/indonusa/angular/mfe/transaction
 	url = https://github.com/etos-systems/transaction-angular-web.git
 	branch = main
+[submodule "code/indonusa/angular/mfe/cash"]
+	path = code/indonusa/angular/mfe/cash
+	url = https://github.com/etos-systems/cash-angular-web.git
+	branch = main
+[submodule "code/indonusa/laravel/services/cash"]
+	path = code/indonusa/laravel/services/cash
+	url = https://github.com/etos-systems/cash-laravel-services.git
+	branch = main
