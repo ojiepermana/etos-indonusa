@@ -27,7 +27,7 @@ cd /root/project/etos-indonusa
 
 # # payroll app
 # cd code/indonusa/angular/app/payroll/
-# #bash update.sh
+# ##bash update.sh
 # npm run hosting
 # cd /root/project/etos-indonusa
 
@@ -65,7 +65,6 @@ cd /root/project/etos-indonusa
 
 
 
-
 #budget mfe
 cd code/indonusa/angular/mfe/budget/
 #bash update.sh
@@ -92,15 +91,14 @@ npm run hosting
 cd /root/project/etos-indonusa
 
 
-
-#accounting mfe
-cd code/indonusa/angular/app/accounting/
+#transaction mfe
+cd code/indonusa/angular/mfe/transaction/
 #bash update.sh
 npm run hosting
 cd /root/project/etos-indonusa
 
-#transaction mfe
-cd code/indonusa/angular/mfe/transaction/
-# bash update.sh
+#cash mfe
+cd code/indonusa/angular/mfe/cash/
+#bash update.sh
 npm run hosting
 cd /root/project/etos-indonusa
