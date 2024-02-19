@@ -12,6 +12,7 @@ RUN apt-get update && \
     imagemagick \
     libtidy-dev \
     libc-ares-dev \
+    libpq-dev \
     wget \
     nano \
     curl \

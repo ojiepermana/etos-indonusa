@@ -13,6 +13,7 @@ RUN apt-get update && \
     libpng-dev \
     libonig-dev \
     libxml2-dev \
+    libpq-dev \
     zip \
     unzip \
     supervisor \
