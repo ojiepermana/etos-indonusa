@@ -106,3 +106,7 @@
 	path = code/indonusa/angular/app/sales
 	url = https://github.com/etos-systems/sales-angular-web.git
 	branch = main
+[submodule "code/indonusa/angular/mfe/auth"]
+	path = code/indonusa/angular/mfe/auth
+	url = https://github.com/etos-systems/auth-angular-web.git
+	branch = main
