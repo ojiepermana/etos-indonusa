@@ -106,3 +106,7 @@
 	path = code/indonusa/laravel/services/cash
 	url = https://github.com/etos-systems/cash-laravel-services.git
 	branch = main
+[submodule "code/indonusa/angular/app/sales"]
+	path = code/indonusa/angular/app/sales
+	url = https://github.com/etos-systems/sales-angular-web.git
+	branch = main
