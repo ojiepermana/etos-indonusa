@@ -1,7 +1,9 @@
 FROM php:8.1-cli
 
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends \
+# Update and upgrade the package lists
+RUN apt-get update && apt-get upgrade -y
+
+RUN apt-get install -y --no-install-recommends \
     openssl \
     libssl-dev \
     libcurl4-openssl-dev \
@@ -13,26 +15,31 @@ RUN apt-get update && \
     libpng-dev \
     libonig-dev \
     libxml2-dev \
+    libpq-dev \
+    libevent-dev \
+    libuv1-dev \
     zip \
     unzip \
-    libpq-dev \
     supervisor \
     curl
 
+RUN docker-php-ext-install sockets
 RUN pecl channel-update pecl.php.net
+RUN pecl install event
+RUN pecl install ev
+# RUN pecl install uv
 RUN pecl install swoole && docker-php-ext-enable swoole
 RUN pecl install apcu && docker-php-ext-enable apcu
 RUN pecl install igbinary && docker-php-ext-enable igbinary
 RUN pecl install mongodb && docker-php-ext-enable mongodb
 RUN pecl install redis && docker-php-ext-enable redis
-RUN docker-php-ext-install pdo pdo_mysql pdo_pgsql
+RUN docker-php-ext-install pdo pdo_mysql pgsql pdo_pgsql
 RUN docker-php-ext-install bcmath
-RUN docker-php-ext-install sockets
 RUN docker-php-ext-install zip
 RUN docker-php-ext-install tidy
+RUN docker-php-ext-enable tidy
 RUN docker-php-ext-install gd
 RUN docker-php-ext-enable opcache
-RUN docker-php-ext-enable tidy
 RUN docker-php-ext-configure pcntl --enable-pcntl \
   && docker-php-ext-install \
     pcntl
