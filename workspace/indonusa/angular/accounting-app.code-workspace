@@ -3,5 +3,8 @@
 		{
 			"path": "./../../../code/indonusa/angular/app/accounting/"
 		}
-	]
+	],
+	"settings": {
+		"prettier.bracketSameLine": false
+	}
   }
